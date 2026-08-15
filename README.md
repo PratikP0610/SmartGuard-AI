@@ -70,6 +70,16 @@ Streamlit Dashboard
 
 ## 📸 Dashboard
 
+## 📸 Dashboard Preview
+
+### Machine Health Prediction Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Data Analysis
+
+![Analysis](screenshots/analysis.png)
+
 Interactive dashboard allows users to enter machine parameters and receive:
 
 - Machine health status
