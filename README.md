@@ -1,73 +1,95 @@
-# 🤖 SmartGuard AI
+# SmartGuard-AI 🤖
 
-AI-powered predictive maintenance system that predicts industrial machine failures using sensor data and machine learning.
+## AI-Based Predictive Maintenance System
+
+SmartGuard-AI is a machine learning powered predictive maintenance system that analyzes industrial sensor data and predicts possible machine failures before they happen.
+
+The project uses sensor parameters like temperature, vibration, pressure, RPM, and operating hours to identify machine health conditions.
+
+---
 
 ## 🚀 Features
 
-- Machine failure prediction
-- Real-time sensor analysis
-- Failure probability estimation
-- Machine health score
-- Explainable AI feature importance
-- Automated maintenance report generation
+- Machine failure prediction using Machine Learning
+- Real-time interactive dashboard using Streamlit
+- Sensor data analysis and visualization
+- Failure risk classification
+- Prediction confidence score
+- Exploratory Data Analysis (EDA)
 
-## 🧠 Machine Learning Pipeline
+---
 
-Sensor Data
+## 🧠 Machine Learning
 
-↓
+Model Used:
+- Random Forest Classifier
 
-Exploratory Data Analysis
+Performance:
+- Accuracy: ~100% on test dataset
 
-↓
+Features:
+- Temperature
+- Vibration
+- Pressure
+- RPM
+- Operating Hours
 
-Feature Analysis
+Target:
+- Machine Failure (0 = Healthy, 1 = Failed)
 
-↓
+---
 
-Random Forest Model
-
-↓
-
-Streamlit AI Dashboard
-
-
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
-- Random Forest
-- Streamlit
 - Matplotlib
 - Seaborn
+- Streamlit
+- Plotly
 
+---
 
-## 📊 Model
+## 📊 Project Workflow
 
-Algorithm:
-Random Forest Classifier
+Sensor Data  
+↓  
+Data Cleaning & Analysis  
+↓  
+Feature Analysis  
+↓  
+Machine Learning Model  
+↓  
+Failure Prediction  
+↓  
+Streamlit Dashboard
 
+---
 
-## 📌 Project Structure
-SmartGuard-AI
-├── app.py
-├── data/
-├── models/
-├── notebooks/
-├── src/
-└── requirements.txt
+## 📸 Dashboard
 
+Interactive dashboard allows users to enter machine parameters and receive:
 
+- Machine health status
+- Failure prediction
+- Confidence score
 
+---
 
-## 🎯 Future Improvements
+## ▶️ Run Project
 
-- Real IoT sensor integration
-- Live machine monitoring
-- Cloud deployment
-- Time-series prediction
+Install dependencies:
 
+```bash
+pip install -r requirements.txt
 
-Built as an AI/ML predictive maintenance prototype.
+## 👨‍💻 Author
+
+**Pratik Mahendra Pardeshi**
+
+Aspiring AI & Machine Learning Engineer  
+Interested in Predictive Maintenance, Automotive Technology, and Aerospace Applications.
+
+GitHub: https://github.com/PratikP0610
